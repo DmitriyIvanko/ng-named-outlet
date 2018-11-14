@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "my-app(1)", ".", "{25D05512-3F99-42EA-9207-31A078BA88C3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54395"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Projects\work-with-modals\my-app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54395\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54395"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Projects\work-with-modals\my-app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54395\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54395"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25D05512-3F99-42EA-9207-31A078BA88C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D05512-3F99-42EA-9207-31A078BA88C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02C575A-1AF9-44C5-ABAB-EDCF8511EE1D}
+	EndGlobalSection
+EndGlobal
