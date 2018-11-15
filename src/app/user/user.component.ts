@@ -21,5 +21,4 @@ export class UserComponent {
       relativeTo: this.route,
     });
   }
-
 }

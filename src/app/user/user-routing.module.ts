@@ -17,7 +17,6 @@ const routes: Routes = [
     component: UserComponent,
     path: '',
   },
-
 ];
 
 @NgModule({

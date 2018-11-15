@@ -15,4 +15,10 @@ export class AppComponent {
   public onNavigationClick(): void {
     this.router.navigate(['/user']);
   }
+
+  public onOpenPopup(): void {
+    this.router.navigate([{
+      outlets: { popup: ['warning'] },
+    }]);
+  }
 }
