@@ -13,6 +13,6 @@ export class AppComponent {
   ) { }
 
   public onNavigationClick(): void {
-    this.router.navigate(['/heroes']);
+    this.router.navigate(['/user']);
   }
 }

@@ -5,8 +5,10 @@ import {
 } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
-  { path: 'heroes', loadChildren: './heroes/heroes.module#HeroesModule' },
+  {
+    loadChildren: './user/user.module#UserModule',
+    path: 'user',
+  },
 ];
 
 @NgModule({
