@@ -17,8 +17,17 @@ export class UserComponent {
   ) { }
 
   public onClick(): void {
-    this.router.navigate(['layout'], {
+    this.router.navigate(
+      ['layout'], {
       relativeTo: this.route,
+    });
+  }
+
+  public onOpenPopup(): void {
+    this.router.navigate(['', {
+      outlets: { popup: ['warning'] },
+    }], {
+        relativeTo: this.route,
     });
   }
 }

@@ -1,5 +1,6 @@
 User works
 <router-outlet></router-outlet>
-
+<router-outlet name="popup"></router-outlet>
+<!--<button (click)="onOpenPopup()">Open Popup</button>-->
+<a [routerLink]="['', { outlets: { popup: 'warning' } }]">RE</a>
 <button (click)="onClick()">Navigato to Layout</button>
-

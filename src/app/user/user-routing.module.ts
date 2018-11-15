@@ -5,6 +5,7 @@ import {
 } from '@angular/router';
 
 import { UserComponent } from './user.component';
+import { WarningPopupComponent } from './warning-popup/warning-popup.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,11 @@ const routes: Routes = [
       {
         loadChildren: './layout/layout.module#LayoutModule',
         path: 'layout',
+      },
+      {
+        path: 'warning',
+        component: WarningPopupComponent,
+        outlet: 'popup',
       }
     ],
     component: UserComponent,
