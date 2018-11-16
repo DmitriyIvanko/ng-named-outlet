@@ -21,7 +21,12 @@ const routes: Routes = [
       }
     ],
     component: UserComponent,
+    path: 'main',
+  },
+  {
+    redirectTo: 'main',
     path: '',
+    pathMatch: 'full'
   },
 ];
 

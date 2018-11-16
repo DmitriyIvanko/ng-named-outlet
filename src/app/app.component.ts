@@ -12,7 +12,11 @@ export class AppComponent {
     private router: Router,
   ) { }
 
-  public onNavigationClick(): void {
+  public onUserClick(): void {
     this.router.navigate(['/user']);
+  }
+
+  public onHomeClick(): void {
+    this.router.navigate(['']);
   }
 }

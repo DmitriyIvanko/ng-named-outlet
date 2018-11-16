@@ -26,8 +26,6 @@ export class UserComponent {
   public onOpenPopup(): void {
     this.router.navigate(['', {
       outlets: { popup: ['warning'] },
-    }], {
-        relativeTo: this.route,
-    });
+    }]);
   }
 }

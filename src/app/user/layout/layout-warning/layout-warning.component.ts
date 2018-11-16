@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+} from '@angular/core';
 import {
   ActivatedRoute,
   Router,
 } from '@angular/router';
 
 @Component({
-  selector: 'app-warning-popup',
-  templateUrl: './warning-popup.component.html',
-  styleUrls: ['./warning-popup.component.css']
+  selector: 'app-layout-warning',
+  templateUrl: './layout-warning.component.html',
+  styleUrls: ['./layout-warning.component.css']
 })
-export class WarningPopupComponent implements OnInit {
+export class LayoutWarningComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -19,18 +22,18 @@ export class WarningPopupComponent implements OnInit {
   ngOnInit() {
   }
 
-  public onClosePopup(): void {
+  public onCloseLoyoutWarning(): void {
     this.router.navigate(
       [
         {
           outlets: {
-            popup: null,
+            layoutPopup: null,
           },
         },
       ],
       {
         relativeTo: this.activatedRoute.parent,
-      },
+      }
     );
   }
 
